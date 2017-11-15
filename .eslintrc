@@ -1,0 +1,38 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true,
+    "worker": true,
+    "serviceworker": true,
+    "es6": true
+  },
+  "extends": ["airbnb", "prettier", "prettier/react"],
+  "parser": "babel-eslint",
+  "globals": {
+    "window": true,
+    "$dirname": true,
+    "FontFaceObserver": true,
+    "fontFaceSet": true
+  },
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "import",
+    "jest"
+  ],
+  "settings": {
+    "import/resolver": {
+      "alias": [
+        ['Utils', './src/utils/index.js'],
+        ['Components', './src/components/'],
+        ['Images', './src/assets/images/'],
+        ['Icons', './src/assets/icons/'],
+        ['Styles', './src/assets/styles/'],
+      ],
+      "webpack": {
+        "config": "./webpack.config.js"
+      }
+    }
+  }
+}
