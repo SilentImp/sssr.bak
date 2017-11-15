@@ -20,7 +20,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactDom = require('react-dom');
 
-var _index = require('../source/components/example/index.jsx');
+var _index = require('../shared/components/example/index');
 
 var _index2 = _interopRequireDefault(_index);
 

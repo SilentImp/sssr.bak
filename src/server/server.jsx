@@ -4,7 +4,7 @@ import cookieParser from 'restify-cookies';
 import validator from 'restify-joi-middleware';
 import React from "react";
 import { hydrate } from "react-dom";
-import ExamplePage from '../source/components/example/index.jsx';
+import ExamplePage from '../shared/components/example/index';
 
 const PORT = process.env.PORT || 3050;
 const server = restify.createServer();
