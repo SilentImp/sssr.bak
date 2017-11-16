@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/server/php.jsx"],"names":[],"mappings":";;AAAA;;AACA;;;;AACA;;AACA;;;;;;AAEA,4BAAe,oDAAf","file":"php.js","sourcesContent":["import 'babel-polyfill';\nimport React from \"react\";\nimport { renderToString } from \"react-dom/server\";\nimport ExamplePage from '../shared/components/example/index';\n\nrenderToString(<ExamplePage/>);\n"]}

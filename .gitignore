@@ -18,3 +18,5 @@
 .idea
 
 npm-debug.log*
+
+/vendor/

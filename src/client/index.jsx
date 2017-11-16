@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ExamplePage from './components/example';
+import Page from 'components/example';
+
+const window = typeof window === 'undefined' ? '' : window; // eslint-disable-line
+const document = typeof document === 'undefined' ? '' : document; // eslint-disable-line
 
 ReactDOM.hydrate(
-  <ExamplePage />,
+  <Page />,
   document.getElementById('root')
 );

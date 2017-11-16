@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5bb57f80364d301a759b1014c2336e6d",
+    "content-hash": "ccf0b8bc5d95fcece6e4d19d97c3b316",
     "packages": [
         {
             "name": "nacmartin/phpexecjs",
@@ -128,6 +128,8 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "ext-v8js": "^1.4"
+    },
     "platform-dev": []
 }

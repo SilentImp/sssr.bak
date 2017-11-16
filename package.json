@@ -25,6 +25,7 @@
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
+    "ejs": "^2.5.7",
     "eslint": "^4.7.2",
     "eslint-config-airbnb": "^15.1.0",
     "eslint-config-prettier": "^2.6.0",
@@ -50,16 +51,18 @@
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
     "reset.css": "^2.0.2",
-    "script-ext-html-webpack-plugin": "^1.8.8",
-    "stylelint": "^8.2.0",
-    "stylelint-webpack-plugin": "^0.9.0",
-    "webpack": "^3.6.0",
-    "webpack-dev-server": "^2.9.1",
-    "webpack-merge": "^4.1.0",
     "restify": "^4.0.2",
     "restify-cookies": "^0.2.2",
     "restify-joi-middleware": "^3.0.0",
     "restify-jwt": "^0.4.0",
-    "restify-mongoose": "^2.0.1"
+    "restify-mongoose": "^2.0.1",
+    "script-ext-html-webpack-plugin": "^1.8.8",
+    "serve-static-restify": "^2.0.0",
+    "stylelint": "^8.2.0",
+    "stylelint-webpack-plugin": "^0.9.0",
+    "webpack": "^3.6.0",
+    "webpack-bundle-analyzer": "^2.9.1",
+    "webpack-dev-server": "^2.9.1",
+    "webpack-merge": "^4.1.0"
   }
 }

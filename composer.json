@@ -1,6 +1,13 @@
 {
+    "name": "silentimp/sites",
+    "authors": [
+        {
+            "name": "Anton Nemtsev",
+            "email": "thesilentimp@gmail.com"
+        }
+    ],
     "require": {
-        "nacmartin/phpexecjs": "^0.8.7",
-        "reactjs/react-php-v8js": "^2.0"
+        "reactjs/react-php-v8js": "^2.0",
+        "ext-v8js": "^1.4"
     }
 }

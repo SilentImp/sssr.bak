@@ -11,7 +11,9 @@
   "parser": "babel-eslint",
   "globals": {
     "window": true,
-    "$dirname": true,
+    "document": true,
+    "React": true,
+    "ReactDOM": true,
     "FontFaceObserver": true,
     "fontFaceSet": true
   },
